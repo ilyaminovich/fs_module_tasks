@@ -38,9 +38,9 @@ function checkConditions(obj){
 
     if(counter === 11){
         console.log('OK')
-    }
-
+    } else {
     fs.writeFileSync('jsonFails.txt', failedConditions.toString().replace(`,`,``).replace(`,`,``));
+    }
 }
 
 jsonFunc("myjson.json");

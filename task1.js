@@ -1,15 +1,19 @@
-function getFileData(fileSource){
+const fs = require('fs');
 
-    const fs = require('fs');
-    if(fs.existsSync('./text.txt')){
-    fileReaded = fs.readFileSync(fileSource, 'utf8');
-    fileSplitted = fileReaded.split('\n')};
+function getFileData(fileSource) {
 
-    fileSplitted.forEach((element, i) => {
-        if(i % 2 !== 0){
-            console.log(fileSplitted[i]);
-        }
-    });
+    if (fs.existsSync('./text.txt')) {
+
+        const fileReaded = fs.readFileSync(fileSource, 'utf8'),
+            fileSplitted = fileReaded.split('\n');
+        fileSplitted.forEach((element, i) => {
+            if (i % 2 !== 0) {
+                console.log(fileSplitted[i]);
+            }
+        });
+    } else {
+        console.log("There is no file")
+    };
 }
 
-getFileData("text.txt"); 
+getFileData("text.txt");
