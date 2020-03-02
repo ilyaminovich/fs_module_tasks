@@ -1,0 +1,28 @@
+{
+    "flag": "true",
+    "myPromises": [
+    "1",
+    "2",
+    "3"
+    ],
+    "element": {"name": "Raman"},
+    "screenshot": 56,
+    "elementText": "constantine",
+    "allElementsText": "asedconstasdfrefdafdf",
+    "counter": 18,
+    "config": "Common",
+    "const": "first",
+    "parameters": [
+    "a",
+    "s",
+    "d",
+    "g",
+    "e",
+    "f",
+    "e",
+    "t",
+    41,
+    5
+    ],
+    "description": "qwertyuiop"
+    }

@@ -1,0 +1,5 @@
+"Roy"
+"Male"
+"Alive"
+"Human"
+{"name":"Roy: A Life Well Lived","url":"https://rickandmortyapi.com/api/location/32"}
